@@ -22,6 +22,8 @@ yesdiv.addEventListener('click', () => {
   h2.textContent = 'I love you khub sara babyy 😘 tumko bhi pappii 😚';
   h2.style.fontSize = '40px';
   img.src = './gifs/yay-kitty.gif';
+  yesdiv.remove();
+  nodiv.remove();
   setTimeout(() => {
     img.src = './gifs/kiss.gif';
   }, 2000);
