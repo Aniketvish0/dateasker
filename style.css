@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Poppins:wght@200;300;400;500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(117deg, #ff41f7 0%, rgba(255, 73, 73, 0.81) 100%);
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  color: beige;
+}
+.notediv {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  gap: 30px;
+  padding: 10px;
+  border-radius: 2px;
+  /* background: linear-gradient(#3453ee, #a91cef); */
+  height: 70vh;
+  width: 50vw;
+}
+.notediv h2 {
+  font-weight: 600;
+  font-size: 50px;
+  padding-top: 80px;
+  font-stretch: expanded;
+  text-align: center;
+  word-wrap: normal;
+}
+.notediv img {
+  left: 23vw;
+  bottom: 50px;
+  width: 150px;
+  transform: translate(-50%, 0%);
+}
+/* .twobtns {
+  display: flex;
+  position: absolute;
+  left: 50vw;
+  top: 80vh;
+  transform: translate(-50%, -50%);
+  gap: 20px;
+} */
+.yesdiv {
+  padding: 20px 10px;
+  position: absolute;
+  left: 45vw;
+  top: 80vh;
+  transform: translate(-50%, -50%);
+  background-color: #3453ee;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+.yesdiv:hover {
+  background-color: rgb(198, 21, 166);
+  cursor: pointer;
+  transform: scale(1.1) translate(-50%, -50%);
+}
+.nodiv {
+  position: absolute;
+  left: 55vw;
+  top: 80vh;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-color: #3453ee;
+  padding: 20px 10px;
+  width: 100px;
+  text-align: center;
+}
+.bunny {
+  width: 200px;
+  position: absolute;
+}
